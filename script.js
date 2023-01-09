@@ -1,5 +1,5 @@
 function isEmpty(object) {
-    return (!(Object.entries(obj).length)) ? console.log("Object is empty") : console.log("Object is ful of properties");
+    return (!(Object.entries(object).length)) ? console.log("Object is empty") : console.log("Object is ful of properties");
 }
 let person = {
     name: "Tom",
